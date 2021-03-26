@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mySite</title>
+    <style>
+        .card{
+            display: table-cell;
+            width: 150px;
+            height: 225px;
+            vertical-align: middle;
+            text-align: center;
+            background-color: deepskyblue;
+            border-radius: 15px;
+        }
+
+        #question{
+            width: 90%;
+            display: inline-block;
+            /* background-color: crimson; */
+            top: auto;
+            text-align: center;
+        }
+
+        .container{
+            margin-top: 15px;
+        }
+
+        .container > input{
+            width: 150px;
+            height: 20px;
+            border: 1px;
+            background-color: gray;
+            border-radius: 15px;
+            text-align: center;
+            color: white;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+        }
+
+        .container > button{
+            border-radius: 15px;
+            border: none;
+            background-color: gray;
+            padding: 5px 10px;
+            color:white;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <div class="card">
+            <h1 id="question"></h1>
+        </div>
+
+        <div class="container">
+            <input id="anwser">
+            <br>
+            <button type="button" id="submit" onclick="add();">Submit</button>
+            <button type="button" onclick="newCard();">Get New Question</button>
+            </br>
+            <p id="output"></p>
+        </div>
+    </center>
+    <script src="testing.js"></script>
+</body>
+</html>

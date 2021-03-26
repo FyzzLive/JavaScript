@@ -1,0 +1,26 @@
+
+Document Writing can be done in differant ways
+    -document.getElementById("").innerHTML = "This writes text to a pre defined class or id";
+    -document.write("Writes right on the page, but if done after the HTML has been read it wipes the page");
+    -window.alert("Makes an alert show up on the page");
+    -console.log("Only outputs to the console of the webpage")
+
+Variables
+In js variables are defined with "var" but can also have specific type when assigned:
+    - Use cammel case to define variable.
+    - Var = "used to define a variable"
+    - Int = For number;
+    - Float = for Float;
+    - Objects = Sorta like a dictionary in python;
+        var person = {
+            firstName: "John",
+             (Name)    (Value)
+         }
+
+Generate Randon number
+    - randomNumber = Math.floor(Math.random() * 10 + 1);
+
+
+
+Node-----------------------------------------------------------------------------------------------------------------------
+
